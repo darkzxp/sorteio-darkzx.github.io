@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400;500;600;700&family=Righteous&family=Sarala&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio-Darkzx</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="clover.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="c">
+        <a href="https://github.com/darkzxp" id="credits" target="_blank">Made By: darkzx</a>
+    </div>
+
+    <div class="container">
+
+        <img src="./Images/Raffle.png" alt="">
+
+        <div class="raffle">
+            <div>
+                <h1 class="result-title">Resultado:</h1>
+                <h1 id="result"></h1>
+            </div>
+            <div class="list">
+                <ul id="list">
+                </ul>
+            </div>
+            <div class="options">
+                <input id="input" type="text" autocomplete="off" placeholder="Example: Names, Numbers">
+                <button onclick="add()">Add (Adicionar)</button>
+                <button onclick="raffle()">Raffle (Sortear)</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
